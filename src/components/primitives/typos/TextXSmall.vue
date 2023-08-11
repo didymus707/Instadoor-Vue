@@ -3,14 +3,14 @@ defineProps(["text"]);
 </script>
 
 <template>
-  <span class="text-lg">{{ text }}</span>
+  <span class="text-xsmall">{{ text }}</span>
 </template>
 
 <style scoped>
-.text-lg {
-  font-size: 24px;
+.text-xsmall {
+  font-size: 8px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
+  font-weight: 400;
+  line-height: 24px;
 }
 </style>
