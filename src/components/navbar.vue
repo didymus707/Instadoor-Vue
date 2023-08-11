@@ -1,8 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import LogoIcon from "./primitives/icons/LogoIcon.vue"
-import TextBase from "./primitives/typos/TextBase.vue";
-
+import BaseText from './primitives/typos/BaseText.vue'
 const isBold = ref(true);
 </script>
 
@@ -23,10 +22,10 @@ const isBold = ref(true);
     </nav>
     <div class="cta">
       <button class="btn-cta">
-        <TextBase text="Sign In" />
+        <BaseText text="Sign In" />
       </button>
       <button class="btn-cta btn-cta-signup">
-        <TextBase :class="isBold ? 'is-bold' : 'is-normal'" text="Sign Up" />
+        <BaseText :class="isBold ? 'is-bold' : 'is-normal'" text="Sign Up" />
       </button>
     </div>
   </template>

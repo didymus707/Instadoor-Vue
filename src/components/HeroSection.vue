@@ -1,14 +1,19 @@
 <script setup>
-import TextLg from "./primitives/typos/TextXL.vue";
+import BaseText from "./primitives/typos/BaseText.vue";
+import XLgText from "./primitives/typos/XLgText.vue";
 </script>
 
 <template>
   <div class="hero">
     <div class="hero-details">
-      <TextLg
-        text="Local and International groceries delivered to your doorstep"
-      />
-
+      <div class="hero-text">
+        <XLgText
+          text="Local and International groceries delivered to your doorstep"
+        />
+        <BaseText
+          text="Instadoor have set high standards for our stores to bring you closer to the taste of sumptuous delicacies"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -28,5 +33,11 @@ import TextLg from "./primitives/typos/TextXL.vue";
 }
 .hero-details {
   color: white;
+}
+.hero-text {
+  width: 55rem;
+}
+.hero-text desc {
+  margin: 1rem;
 }
 </style>
