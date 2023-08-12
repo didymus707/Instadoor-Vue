@@ -1,11 +1,14 @@
 <script setup>
 import InfoLabel from "./InfoLabel.vue";
+import QuickInfo from "./QuickInfo.vue";
 import LgText from "./primitives/typos/LgText.vue";
 import FeaturedSection from "./FeaturedSection.vue";
+import FeedbackSection from "./FeedbackSection.vue";
 import XLgText from "./primitives/typos/XLgText.vue";
 import SelectField from "./primitives/SelectField.vue";
 import CartIcon from "./primitives/icons/CartIcon.vue";
 import ActionButton from "./primitives/ActionButton.vue";
+import RecommendedSection from "./RecommendedSection.vue";
 import MotorCycleIcon from "./primitives/icons/MotorCycleIcon.vue";
 import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
 </script>
@@ -45,6 +48,18 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
   </div>
   <div class="featured-section">
     <FeaturedSection />
+  </div>
+  <div class="recommended-section">
+    <RecommendedSection />
+  </div>
+  <div class="quick-info-section">
+    <QuickInfo />
+  </div>
+  <div class="feedback-section">
+    <FeedbackSection />
+  </div>
+  <div class="footer">
+
   </div>
 </template>
 
@@ -88,8 +103,10 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
   padding: 0 8rem;
   justify-content: space-between;
 }
-.featured-section {
-  width: 100%;
-  padding:0 8rem;
+.feedback-section {
+  padding: 4rem 8rem;
+}
+.footer {
+  background: #171A1C;
 }
 </style>

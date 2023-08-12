@@ -11,7 +11,7 @@ const props = defineProps({
 <style scoped>
 .big-lg-text {
   font-family: Inter;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 40px;

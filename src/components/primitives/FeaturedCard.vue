@@ -1,14 +1,16 @@
 <script setup>
+import Ratings from "./Ratings.vue";
 import LgText from "./typos/LgText.vue";
 import BaseText from "./typos/BaseText.vue";
 import SmallText from "./typos/SmallText.vue";
-import Ratings from "./Ratings.vue";
+import ActionButton from "./ActionButton.vue";
 const props = defineProps({
   image: Object,
   rating: Number,
   address: String,
   timeAway: String,
   storeName: String,
+  timeRange: String,
 });
 </script>
 
@@ -43,7 +45,8 @@ img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
-.image-desc {
+.image-desc,
+.reco-desc {
   gap: 8px;
   width: 100%;
   display: flex;
