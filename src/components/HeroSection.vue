@@ -1,6 +1,7 @@
 <script setup>
 import InfoLabel from "./InfoLabel.vue";
 import LgText from "./primitives/typos/LgText.vue";
+import FeaturedSection from "./FeaturedSection.vue";
 import XLgText from "./primitives/typos/XLgText.vue";
 import SelectField from "./primitives/SelectField.vue";
 import CartIcon from "./primitives/icons/CartIcon.vue";
@@ -42,6 +43,9 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
       <p>Wait and track your order as it will be delivered to you in no time</p>
     </InfoLabel>
   </div>
+  <div class="featured-section">
+    <FeaturedSection />
+  </div>
 </template>
 
 <style scoped>
@@ -81,7 +85,11 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
   display: flex;
   bottom: 100px;
   position: relative;
-  padding: 0 8rem 4rem;
+  padding: 0 8rem;
   justify-content: space-between;
+}
+.featured-section {
+  width: 100%;
+  padding:0 8rem;
 }
 </style>
