@@ -3,11 +3,13 @@ defineProps(["text"]);
 </script>
 
 <template>
-  <h1 class="x-large">{{ text }}</h1>
+  <h1 class="text-xl">
+    {{ text }}
+  </h1>
 </template>
 
 <style scoped>
-.x-large {
+.text-sl {
   font-size: 4rem;
   font-style: normal;
   font-weight: 700;

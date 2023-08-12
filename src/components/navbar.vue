@@ -62,13 +62,13 @@ const isBold = ref(true);
   color: #f73163;
 }
 .cta {
-  gap: 16px;
+  gap: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .btn-cta {
-  padding: 8px;
+  padding: 0.5rem;
   border: none;
   color: white;
   background: none;
