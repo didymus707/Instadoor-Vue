@@ -35,7 +35,7 @@ const isBold = ref(true);
 .wrapper {
   width: 100%;
   display: flex;
-  padding: 12px 128px;
+  padding: 12px 6rem;
   align-items: center;
   background-color: #343a40;
   justify-content: space-between;

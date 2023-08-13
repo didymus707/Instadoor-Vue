@@ -46,7 +46,7 @@ import GoodsHeader from "./primitives/GoodsHeader.vue";
 <style scoped>
 .featured-wrapper {
   width: 100%;
-  padding: 2rem 8rem;
+  padding: 2rem 6rem;
 }
 .featured-items {
   width: 100%;

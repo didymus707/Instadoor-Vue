@@ -89,11 +89,11 @@ const foodArr = [
 <style scoped>
 .recommended-wrapper {
   width: 100%;
-  padding: 2rem 8rem;
+  padding: 2rem 6rem;
 }
 .recommended-items {
   width: 100%;
-  row-gap: 16px;
+  row-gap: 32px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

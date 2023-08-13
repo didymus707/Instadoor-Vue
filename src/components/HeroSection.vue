@@ -67,7 +67,7 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
 .hero {
   width: 100%;
   height: 47.639%;
-  padding: 8rem;
+  padding: 8rem 6rem;
   background-size: cover;
   background-image: linear-gradient(
       90deg,
@@ -100,11 +100,11 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
   display: flex;
   bottom: 100px;
   position: relative;
-  padding: 0 8rem;
+  padding: 0 6rem;
   justify-content: space-between;
 }
 .feedback-section {
-  padding: 4rem 8rem;
+  padding: 4rem 6rem;
 }
 .footer {
   background: #171A1C;

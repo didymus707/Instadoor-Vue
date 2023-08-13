@@ -22,7 +22,7 @@ import BigLgText from "./primitives/typos/BigLgText.vue";
 
 <style scoped>
 .quick-info {
-  padding: 2rem 8rem;
+  padding: 2rem 6rem;
 }
 .quick-info-content {
   width: 100%;
