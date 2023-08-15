@@ -58,9 +58,7 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
   <div class="feedback-section">
     <FeedbackSection />
   </div>
-  <div class="footer">
-
-  </div>
+  <div class="footer"></div>
 </template>
 
 <style scoped>
@@ -107,6 +105,7 @@ import LocationPin2Icon from "./primitives/icons/LocationPin2Icon.vue";
   padding: 4rem 6rem;
 }
 .footer {
-  background: #171A1C;
+  background: #171a1c;
+  padding: 8rem 6rem;
 }
 </style>

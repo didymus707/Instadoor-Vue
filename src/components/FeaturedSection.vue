@@ -17,6 +17,7 @@ import GoodsHeader from "./primitives/GoodsHeader.vue";
         timeAway="45 mins Away"
         storeName="Village Bukka"
         address="Location Address"
+        compHeader="Featured Stores"
       />
       <FeaturedCard
         ratings="4"
@@ -24,6 +25,7 @@ import GoodsHeader from "./primitives/GoodsHeader.vue";
         timeAway="45 mins Away"
         storeName="Village Bukka"
         address="Location Address"
+        compHeader="Featured Stores"
       />
       <FeaturedCard
         ratings="2"
@@ -31,6 +33,7 @@ import GoodsHeader from "./primitives/GoodsHeader.vue";
         timeAway="45 mins Away"
         storeName="Village Bukka"
         address="Location Address"
+        compHeader="Featured Stores"
       />
       <FeaturedCard
         ratings="5"
@@ -38,6 +41,7 @@ import GoodsHeader from "./primitives/GoodsHeader.vue";
         timeAway="45 mins Away"
         storeName="Village Bukka"
         address="Location Address"
+        compHeader="Featured Stores"
       />
     </div>
   </div>
